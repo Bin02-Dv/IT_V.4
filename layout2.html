@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        header{
+            background-color: dodgerblue;
+            height: 5vh;
+        }
+        nav{
+            background-color: rgb(133, 192, 251);
+            height: 95vh;
+            width: 5%;
+        }
+        .body{
+            background-color: rgb(9, 91, 174);
+            height: 95vh;
+            width: 100%;
+        }
+        .left{
+            background-color: rgb(199, 221, 243);
+            height: 47.5vh;
+        }
+        .right{
+            background-color: rgb(133, 192, 251);
+            height: 47.5vh;
+            display: flex;
+        }
+        .left-child-left{
+            background-color: rgb(53, 56, 59);
+            height: 47.5vh;
+            width: 50%;
+        }
+        .left-child-right{
+            background-color: rgb(10, 25, 40);
+            height: 47.5vh;
+            width: 50%;
+        }
+        main{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <header></header>
+    <main>
+        <nav></nav>
+        <section class="body">
+            <div class="left"></div>
+            <div class="right">
+                <div class="left-child-left"></div>
+                <div class="left-child-right"></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
