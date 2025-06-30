@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.row, h2{
+    margin-bottom: 10px;
+}
+
+.row input{
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid rgb(207, 206, 206);
+}
+
+.btn{
+    margin: 10px 0 10px 0;
+}
+
+.btn button{
+    background-color: rgb(237, 116, 157);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.link a{
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    text-align: right;
+}
+
+.add-on{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.add-on span{
+    border: 1px solid rgb(207, 206, 206);
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    background-color: #fff;
+}
+
+.line{
+    border: 0.5px solid rgb(228, 227, 227);
+    margin-top: 30px;
+}
