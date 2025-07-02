@@ -9,13 +9,41 @@
             margin: 0;
         }
         .left{
-            background-color: dodgerblue;
             height: 100vh;
-            width: 50%;
+            width: 5%;
+            background-color: dodgerblue;
         }
         .right{
-            background-color: black;
             height: 100vh;
+            width: 5%;
+            background-color: rgb(123, 186, 248);
+        }
+        .middle{
+            background-color: aqua;
+            width: 90%;
+            height: 100vh;
+        }
+        .m-top{
+            background-color: azure;
+            height: 5vh;
+        }
+        .m-bottom{
+            background-color: rgb(84, 86, 86);
+            height: 5vh;
+        }
+        .m-child-middle{
+            height: 90vh;
+            background-color: black;
+            display: flex;
+        }
+        .m-child-left{
+            background-color: gray;
+            height: 90vh;
+            width: 50%;
+        }
+        .m-child-right{
+            background-color: rgb(185, 184, 184);
+            height: 90vh;
             width: 50%;
         }
         main{
@@ -26,6 +54,18 @@
 <body>
     <main>
         <div class="left"></div>
+
+        <div class="middle">
+            <div class="m-top"></div>
+
+            <div class="m-child-middle">
+                <div class="m-child-left"></div>
+                <div class="m-child-right"></div>
+            </div>
+
+            <div class="m-bottom"></div>
+        </div>
+
         <div class="right"></div>
     </main>
 </body>
